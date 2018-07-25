@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   fetchJoke = () => {
-    fetch('http://api.icndb.com/jokes/random')
+    fetch('https://api.icndb.com/jokes/random')
     .then(result => {
       return result.json();
     })
